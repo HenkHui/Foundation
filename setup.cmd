@@ -67,7 +67,7 @@ timeout 15
 set cms_db=%APPNAME%.Cms
 set commerce_db=%APPNAME%.Commerce
 set user=%APPNAME%User
-set password=Episerver123!
+set password=Episerver123456!
 set errorMessage = "" 
 
 cls
