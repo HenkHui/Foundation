@@ -82,7 +82,10 @@ namespace Foundation.Infrastructure
             _services.Configure<ContentApiConfiguration>(c =>
             {
                 c.EnablePreviewFeatures = true;
-                c.Default().SetMinimumRoles(string.Empty).SetRequiredRole(string.Empty);
+                c.Default().SetMinimumRoles(string.Empty).SetRequiredRole(string.Empty)
+                //TODO: HH: added
+                .SetFlattenPropertyModel(true)
+                .SetIncludeNullValues(false);
             });
 
             _services.Configure<ContentApiSearchConfiguration>(config =>

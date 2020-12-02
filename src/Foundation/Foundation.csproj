@@ -1043,6 +1043,9 @@
     <Compile Include="Features\Checkout\ViewModels\MultiShipmentViewModelFactory.cs" />
     <Compile Include="Features\Checkout\ViewModels\OrderSummaryViewModelFactory.cs" />
     <Compile Include="Features\Checkout\ViewModels\PaymentMethodViewModelFactory.cs" />
+    <Compile Include="Features\ContentDeliveryApi\CustomApiDemoController.cs" />
+    <Compile Include="Features\ContentDeliveryApi\ExtendedContentModelMapper.cs" />
+    <Compile Include="Features\ContentDeliveryApi\SiteInitialization.cs" />
     <Compile Include="Features\Folder\FolderPageUIDescriptor.cs" />
     <Compile Include="Features\Header\DemoUserViewModel.cs" />
     <Compile Include="Features\Header\HeaderLogoViewModel.cs" />
